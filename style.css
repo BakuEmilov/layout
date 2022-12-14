@@ -20,6 +20,8 @@ body{
 .topbar .header{
   margin-left: 20px;
   margin-right: auto;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .topbar .nav{
@@ -31,6 +33,7 @@ body{
   text-decoration: none;
   color: #22343D;
   padding: 20px;
+  font-size: 16px; 
 }
 .topbar .button{
   margin: 5px; 
@@ -49,6 +52,10 @@ body{
   .topbar .button:hover{
     background-color: #ffffff;
     color: #02897A;
+  }
+
+  .topbar .nav-link:hover{
+    color: gray;
   }
 
 
