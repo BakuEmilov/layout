@@ -58,5 +58,48 @@ body{
     color: gray;
   }
 
+  .container-1{
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .container-1 .row{
+    display: flex;
+  }
+
+  .row .col-1{
+    margin-top: 140px;
+  }
+
+  .col-1 p{
+    margin: 0 0 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .button-2{
+    float: left;
+    margin-right: 20px;
+  }
+
+  .button-2 button{
+    background-color: #02897A;
+    border: 1px solid #02897A;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center; 
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .link-1 a{
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+
 
 
