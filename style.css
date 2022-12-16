@@ -41,6 +41,7 @@ body{
 
 .topbar .button button{
   border: 1px solid #02897A;
+  border-radius: 4px;
   padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -69,11 +70,17 @@ body{
   }
 
   .row .col-1{
-    margin-top: 140px;
+    margin-top: 100px;
+    max-width: 450px;
+  }
+
+  .col-1 h1{
+    font-size: 40px;
+    font-weight: 700;
   }
 
   .col-1 p{
-    margin: 0 0 40px;
+    margin: 0 0 70px;
     font-size: 18px;
     font-weight: 400;
   }
@@ -106,13 +113,16 @@ body{
     align-items: center;
   }
 
-  .container-2 h1{
+  .container-2 .h1{
     text-align: center;
     margin-bottom: 66px;
   }
 
   .product {
     display: flex;
+    justify-content: space-between;
+
+
   }
 
   .product h1{
@@ -127,8 +137,31 @@ body{
 
   .container-2{
     margin: 0 auto;
-    max-width: 1080px; 
+    max-width: 1080px;
+    margin-bottom: 200px;
   }
+
+  .container-2 .button-3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-3 button{
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #02897A;
+    border: 1px solid #02897A;
+    padding:  15px 32px; 
+  }
+  .product div{
+    max-width: 240px;
+  }
+
+
 
 
 
