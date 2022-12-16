@@ -61,7 +61,7 @@ body{
   .container-1{
     max-width: 1080px;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   .container-1 .row{
@@ -111,7 +111,24 @@ body{
     margin-bottom: 66px;
   }
 
-  
+  .product {
+    display: flex;
+  }
+
+  .product h1{
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .product p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .container-2{
+    margin: 0 auto;
+    max-width: 1080px; 
+  }
 
 
 
