@@ -67,6 +67,7 @@ body {
 
 .container-1 .row {
   display: flex;
+  justify-content: space-between;
 }
 
 .row .col-1 {
@@ -157,4 +158,23 @@ body {
 }
 .product div {
   max-width: 240px;
+}
+.container-3{
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.container-3 .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-3 .col-3{
+  max-width: 486px;
+}
+
+.container-3 .col-3 p{
+  font-size: 16px;
+  font-weight: 400;
 }
