@@ -162,7 +162,7 @@ body {
 .container-3{
   max-width: 1080px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .container-3 .row{
@@ -182,7 +182,7 @@ body {
 .container-4 {
   max-width: 1080px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .container-4 .row{
@@ -213,6 +213,29 @@ body {
 
 .container-4 h1{
   margin: 40px 0;
+}
+
+.container-5 {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.container-5 .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-5 .col-7{
+  max-width: 460px;
+}
+
+.container-5 h1{
+  margin: 40px 0;
+}
+
+.container-5 h4{
+  margin: 30px 0;
 }
 
 
