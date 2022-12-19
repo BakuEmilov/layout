@@ -178,3 +178,42 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
+.container-4 {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.container-4 .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-4 .col-6{
+  max-width: 420px;
+}
+
+.container-4 .col-6 p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.support div{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.support div img{
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+.container-4 h1{
+  margin: 40px 0;
+}
+
+
+
