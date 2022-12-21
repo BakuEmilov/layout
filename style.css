@@ -159,22 +159,22 @@ body {
 .product div {
   max-width: 240px;
 }
-.container-3{
+.container-3 {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 150px;
 }
 
-.container-3 .row{
+.container-3 .row {
   display: flex;
   justify-content: space-between;
 }
 
-.container-3 .col-3{
+.container-3 .col-3 {
   max-width: 486px;
 }
 
-.container-3 .col-3 p{
+.container-3 .col-3 p {
   font-size: 16px;
   font-weight: 400;
 }
@@ -185,33 +185,33 @@ body {
   margin-bottom: 150px;
 }
 
-.container-4 .row{
+.container-4 .row {
   display: flex;
   justify-content: space-between;
 }
 
-.container-4 .col-6{
+.container-4 .col-6 {
   max-width: 420px;
 }
 
-.container-4 .col-6 p{
+.container-4 .col-6 p {
   font-size: 16px;
   font-weight: 400;
 }
 
-.support div{
+.support div {
   display: flex;
   align-items: center;
   margin: 20px 0px;
 }
 
-.support div img{
+.support div img {
   width: 35px;
   height: 35px;
   margin-right: 20px;
 }
 
-.container-4 h1{
+.container-4 h1 {
   margin: 40px 0;
 }
 
@@ -221,22 +221,20 @@ body {
   margin-bottom: 150px;
 }
 
-.container-5 .row{
+.container-5 .row {
   display: flex;
   justify-content: space-between;
 }
 
-.container-5 .col-7{
+.container-5 .col-7 {
   max-width: 460px;
 }
 
-.container-5 h1{
+.container-5 h1 {
   margin: 40px 0;
 }
 
-.container-5 h4{
+.container-5 h4 {
   margin: 30px 0;
 }
-
-
 
