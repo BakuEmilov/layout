@@ -309,4 +309,11 @@ body {
   flex-direction: row;
 }
 
-
+.section-6 {
+  max-width: 1107px;
+  margin: 0 auto;
+}
+.section-6 .div {
+  display: flex;
+  flex-wrap: wrap;
+}
