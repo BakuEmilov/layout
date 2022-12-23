@@ -59,13 +59,13 @@ body {
   color: gray;
 }
 
-.container-1 {
+.container {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 
-.container-1 .row {
+.container .row {
   display: flex;
   justify-content: space-between;
 }
@@ -114,7 +114,7 @@ body {
   align-items: center;
 }
 
-.container-2 .h1 {
+.section .h1 {
   text-align: center;
   margin-bottom: 66px;
 }
@@ -134,13 +134,13 @@ body {
   font-weight: 400;
 }
 
-.container-2 {
+.section {
   margin: 0 auto;
   max-width: 1080px;
   margin-bottom: 200px;
 }
 
-.container-2 .button-3 {
+.section .button-3 {
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -159,42 +159,42 @@ body {
 .product div {
   max-width: 240px;
 }
-.container-3 {
+.section-2 {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 150px;
 }
 
-.container-3 .row {
+.section-2 .row {
   display: flex;
   justify-content: space-between;
 }
 
-.container-3 .col-3 {
+.section-2 .col-3 {
   max-width: 486px;
 }
 
-.container-3 .col-3 p {
+.section-2 .col-3 p {
   font-size: 16px;
   font-weight: 400;
 }
 
-.container-4 {
+.section-3 {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 150px;
 }
 
-.container-4 .row {
+.section-3 .row {
   display: flex;
   justify-content: space-between;
 }
 
-.container-4 .col-6 {
+.section-3 .col-6 {
   max-width: 420px;
 }
 
-.container-4 .col-6 p {
+.section-3 .col-6 p {
   font-size: 16px;
   font-weight: 400;
 }
@@ -211,30 +211,102 @@ body {
   margin-right: 20px;
 }
 
-.container-4 h1 {
+.section-3 h1 {
   margin: 40px 0;
 }
 
-.container-5 {
+.section-4 {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.section-4 .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-4 .col-7 {
+  max-width: 460px;
+}
+
+.section-4 h1 {
+  margin: 40px 0;
+}
+
+.section-4 h4 {
+  margin: 30px 0;
+}
+
+.section-5{
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 150px;
 }
 
-.container-5 .row {
+.section-5 p{
+  text-align: center;
+  max-width: 543px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section-5 h1{
+  text-align: center;
+  margin: 50px;
+}
+
+.section-5 .col-9{
   display: flex;
   justify-content: space-between;
 }
 
-.container-5 .col-7 {
-  max-width: 460px;
+.col-9 .avator-1 img{
+  float: left;
+  margin-right: 20px;
 }
 
-.container-5 h1 {
-  margin: 40px 0;
+.col-9 .avator-2 img{
+  float: right;
+  margin-left: 20px;
 }
 
-.container-5 h4 {
-  margin: 30px 0;
+.section-5 .col-10{
+  display: flex;
+  justify-content: space-evenly;
 }
+
+.col-10 .avator-3 img{
+  float: right;
+  margin-left: 20px;
+}
+
+.col-10 .avator-4 img{
+  float: left;
+  margin-right: 20px;
+}
+
+.avator-1{
+  align-items: center;
+  display: flex;
+}
+
+.avator-2{
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.avator-3{
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.avator-4{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
 
